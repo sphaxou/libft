@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 15:05:50 by vgallois          #+#    #+#             */
-/*   Updated: 2019/10/21 19:04:21 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/10/22 10:19:29 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ typedef struct	s_list
 
 void			*ft_memset(void *b, int c, size_t len);
 void			ft_bzero(void *s, size_t n);
-
 void			*ft_memcpy(void *dst, const void *src, size_t len);
 void			*ft_memccpy(void *dst, const void *src, int c, size_t len);
 void			*ft_memmove(void *dst, const void *src, size_t len);
@@ -56,7 +55,9 @@ char			**ft_split(const char *s, char c);
 char			*ft_itoa_base(int nb, char *b);
 char			*ft_itoa(int nb);
 char			*ft_strmapi(const char *s, char (*f)(unsigned int, char));
+size_t			ft_putchar(char c);
 void			ft_putchar_fd(char c, int fd);
+size_t			ft_putstr(char *s);
 void			ft_putstr_fd(char *s, int fd);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putendl_fd(char *s, int fd);

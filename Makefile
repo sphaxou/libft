@@ -6,7 +6,7 @@
 #    By: vgallois <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/07 12:26:51 by vgallois          #+#    #+#              #
-#    Updated: 2019/10/21 19:03:57 by vgallois         ###   ########.fr        #
+#    Updated: 2019/10/22 10:18:51 by vgallois         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,9 @@ SRC	= ft_memset.c\
 	  ft_itoa_base.c\
 	  ft_strmapi.c\
 	  ft_putendl.c\
+	  ft_putchar.c\
 	  ft_putchar_fd.c\
+	  ft_putstr.c\
 	  ft_putstr_fd.c\
 	  ft_putendl_fd.c\
 	  ft_putnbr_fd.c\
