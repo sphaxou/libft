@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 15:38:24 by vgallois          #+#    #+#             */
-/*   Updated: 2019/10/17 06:51:09 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/10/22 02:52:32 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ char		*ft_strtrim(char const *s, char const *t)
 	int		j;
 	char	*res;
 
-	if (!s || !t)
-		return (NULL);
 	i = 0;
 	j = 0;
 	while (is_in_t(s[i], t))

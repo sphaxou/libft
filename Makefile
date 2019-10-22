@@ -6,7 +6,7 @@
 #    By: vgallois <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/07 12:26:51 by vgallois          #+#    #+#              #
-#    Updated: 2019/10/19 01:29:27 by vgallois         ###   ########.fr        #
+#    Updated: 2019/10/21 19:03:57 by vgallois         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,6 +66,8 @@ SRCBONUS = ft_lstnew_bonus.c\
 OBJ	= $(addprefix $(OBJDIR),$(SRC:.c=.o))
 OBJBONUS = $(addprefix $(OBJDIR),$(SRCBONUS:.c=.o))
 
+INCLUDES = $(INCDIR)libft.h
+
 INCDIR	= ./
 SRCDIR	= ./
 OBJDIR	= ./obj/
@@ -85,8 +87,8 @@ $(BONUS):	obj $(OBJ) $(OBJBONUS)
 obj:	
 	mkdir -p $(OBJDIR)
 
-$(OBJDIR)%.o:	$(SRCDIR)%.c
-	$(CC) $(CFLAGS) -o $@ -c $<
+$(OBJDIR)%.o:	$(SRCDIR)%.c $(INCLUDES)
+	$(CC) $(CFLAGS) -I$(INCLUDES) -o $@ -c $<
 
 $(NAME): obj $(OBJ)
 	ar rc $(NAME) $(OBJ)

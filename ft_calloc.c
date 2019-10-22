@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 14:38:33 by vgallois          #+#    #+#             */
-/*   Updated: 2019/10/19 08:38:39 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/10/21 18:56:01 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	*ft_calloc(size_t count, size_t size)
 	if (!(res = malloc(count * size)))
 		return (NULL);
 	i = 0;
-	while (i < count * size)
+	while (i < count)
 		((char*)res)[i++] = 0;
 	return (res);
 }

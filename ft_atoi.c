@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 14:20:02 by vgallois          #+#    #+#             */
-/*   Updated: 2019/10/19 06:03:38 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/10/15 17:17:30 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ int	ft_atoi(const char *s)
 	int	neg;
 	int	i;
 
-	if (!s)
-		return (0);
 	res = 0;
 	i = 0;
 	neg = 1;

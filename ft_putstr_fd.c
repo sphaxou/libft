@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 17:08:33 by vgallois          #+#    #+#             */
-/*   Updated: 2019/10/07 17:27:14 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/10/22 02:50:25 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	if (!s)
-		return ;
 	while (*s)
 		ft_putchar_fd(*s++, fd);
 }
