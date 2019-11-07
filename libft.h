@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 15:05:50 by vgallois          #+#    #+#             */
-/*   Updated: 2019/11/07 07:56:50 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/11/07 09:36:40 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,7 @@ char			*ft_itoa(int nb);
 char			*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 size_t			ft_putchar(char c);
 void			ft_putchar_fd(char c, int fd);
+void			ft_putnstr(char *s, int n);
 size_t			ft_putstr(char *s);
 void			ft_putstr_fd(char *s, int fd);
 void			ft_putnbr_fd(int n, int fd);
