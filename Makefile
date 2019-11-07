@@ -6,7 +6,7 @@
 #    By: vgallois <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/07 12:26:51 by vgallois          #+#    #+#              #
-#    Updated: 2019/10/22 10:18:51 by vgallois         ###   ########.fr        #
+#    Updated: 2019/11/07 07:57:32 by vgallois         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,6 +54,7 @@ SRC	= ft_memset.c\
 	  ft_putstr_fd.c\
 	  ft_putendl_fd.c\
 	  ft_putnbr_fd.c\
+	  ft_putnbrbase.c\
 	  
 SRCBONUS = ft_lstnew_bonus.c\
 		ft_lstadd_front_bonus.c\
