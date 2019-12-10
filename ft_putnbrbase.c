@@ -6,13 +6,13 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/07 07:42:59 by vgallois          #+#    #+#             */
-/*   Updated: 2019/11/07 08:22:24 by vgallois         ###   ########.fr       */
+/*   Updated: 2019/12/10 17:51:44 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void			ft_putnbrbase(int nb, char *b)
+void			ft_putnbrbase(intmax_t nb, char *b)
 {
 	int	blen;
 
