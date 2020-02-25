@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/22 04:30:48 by vgallois          #+#    #+#             */
-/*   Updated: 2020/02/25 19:20:12 by vgallois         ###   ########.fr       */
+/*   Updated: 2020/02/25 19:28:30 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int			do_stuff(t_gnl *gnl, int i, char **line)
 	(*line)[i] = 0;
 	ft_memmove((*gnl).content, *line + i + 1, (*gnl).size - i);
 	(*gnl).size -= i + res;
-	return (res);
+	return (1);
 }
 
 int			assign_line(t_gnl *gnl, char **line)

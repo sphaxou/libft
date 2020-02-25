@@ -6,7 +6,7 @@
 #    By: vgallois <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/07 12:26:51 by vgallois          #+#    #+#              #
-#    Updated: 2020/02/25 19:19:38 by vgallois         ###   ########.fr        #
+#    Updated: 2020/02/25 19:25:37 by vgallois         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRC	= ft_memset.c\
 	  ft_memchr.c\
 	  ft_memcmp.c\
 	  ft_memmove.c\
+	  ft_memdup.c\
 	  ft_strlen.c\
 	  ft_strlcpy.c\
 	  ft_strlcat.c\
