@@ -6,7 +6,7 @@
 #    By: vgallois <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/07 12:26:51 by vgallois          #+#    #+#              #
-#    Updated: 2020/02/25 19:25:37 by vgallois         ###   ########.fr        #
+#    Updated: 2020/02/27 13:20:25 by vgallois         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ BONUS	= .bonus
 
 SRC	= ft_memset.c\
 	  ft_bzero.c\
+	  ft_memalloc.c\
 	  ft_memcpy.c\
 	  ft_memccpy.c\
 	  ft_memchr.c\
@@ -29,12 +30,14 @@ SRC	= ft_memset.c\
 	  ft_strnstr.c\
 	  ft_strncmp.c\
 	  ft_atoi.c\
+	  ft_atof.c\
 	  ft_isalpha.c\
 	  ft_isdigit.c\
 	  ft_isalnum.c\
 	  ft_isascii.c\
 	  ft_isprint.c\
 	  ft_isspace.c\
+	  ft_isin.c\
 	  ft_toupper.c\
 	  ft_tolower.c\
 	  ft_isupper.c\

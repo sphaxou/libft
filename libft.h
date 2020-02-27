@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/07 15:05:50 by vgallois          #+#    #+#             */
-/*   Updated: 2020/02/25 19:25:08 by vgallois         ###   ########.fr       */
+/*   Updated: 2020/02/27 13:20:13 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ typedef struct	s_list
 int				get_next_line(int fd, char **line);
 void			*ft_memset(void *b, int c, size_t len);
 void			ft_bzero(void *s, size_t n);
+void			*ft_memalloc(size_t size);
 void			*ft_memcpy(void *dst, const void *src, size_t len);
 void			*ft_memccpy(void *dst, const void *src, int c, size_t len);
 void			*ft_memmove(void *dst, const void *src, size_t len);
@@ -38,6 +39,7 @@ char			*ft_strrchr(const char *s, int c);
 char			*ft_strnstr(const char *haystack, const char *needle, size_t n);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_atoi(const char *s);
+float			ft_atof(const char *s);
 int				ft_isupper(int c);
 int				ft_islower(int c);
 int				ft_isalpha(int c);
@@ -46,6 +48,7 @@ int				ft_isalnum(int c);
 int				ft_isascii(int c);
 int				ft_isprint(int c);
 int				ft_isspace(int c);
+int				ft_isin(char c, char *s);
 int				ft_toupper(int c);
 int				ft_tolower(int c);
 void			*ft_calloc(size_t count, size_t size);
